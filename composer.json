@@ -1,6 +1,6 @@
 {
   "name": "kagga/authorize",
-  "description": "Package to simply roles and permissions in laravel 5",
+  "description": "Package to  simplify roles and permissions in laravel 5",
   "keywords": [
     "Roles",
     "Permissions",
@@ -15,7 +15,7 @@
   ],
   "require": {
     "php": ">=5.5.9",
-    "illuminate/support": "5.1.*"
+    "illuminate/support": "~5.0"
   },
   "autoload": {
     "classmap": [
