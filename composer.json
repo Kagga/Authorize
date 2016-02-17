@@ -1,0 +1,29 @@
+{
+  "name": "kagga/authorize",
+  "description": "Package to simply roles and permissions in laravel 5",
+  "keywords": [
+    "Roles",
+    "Permissions",
+    "laravel"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kagga",
+      "email": "johnkagga@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": "5.1.*"
+  },
+  "autoload": {
+    "classmap": [
+      "src/migrations"
+    ],
+    "psr-4": {
+      "Kagga\\Authorize\\": "src/Kagga/Authorize"
+    }
+  },
+  "minimum-stability": "stable"
+}
